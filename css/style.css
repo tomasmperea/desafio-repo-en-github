@@ -1,0 +1,20 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+section div .banner {
+    width: 100%;
+}
+
+header .list-prin {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .txt-style-nav {
+    color: rgba(128, 128, 128, 0.685)
+    font-family: monospace;
+    font-size: 40px;
+}
