@@ -18,3 +18,7 @@ header .txt-style-nav {
     font-family: monospace;
     font-size: 40px;
 }
+
+header .nav-bar {
+background: linear-gradient(to top, grey, transparent);
+}
