@@ -19,8 +19,15 @@ header .txt-style-nav {
   margin: 0 auto;
   background: linear-gradient(to bottom, grey, transparent);
 }
-main {
-    background-color: radial-gradient(to right, grey, rgba(41, 38, 38, 0.301));
+
+header .txt-style-nav:hover {
+    font-size: 60px;
+    color: whitesmoke;
+    transform: rotate(180deg);
+}
+
+p {
+  font-family: monospace;
 }
 
 header .nav-bar {
@@ -28,7 +35,20 @@ header .nav-bar {
 }
 
 footer h2 {
-  color: rgba(128, 128, 128, 0.685);
+  color: rgba(32, 28, 28, 0.685);
   font-family: monospace;
   font-size: 20px;
+}
+
+footer h2:hover {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+footer {
+    background: linear-gradient(to right, grey, transparent);
+}
+
+section .container-p {
+    background-color: grey;
 }
