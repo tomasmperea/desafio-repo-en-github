@@ -17,8 +17,10 @@ header .txt-style-nav {
     color: rgba(128, 128, 128, 0.685)
     font-family: monospace;
     font-size: 40px;
+    transform:translate(10px, 20px)
 }
 
 header .nav-bar {
 background: linear-gradient(to top, grey, transparent);
 }
+
